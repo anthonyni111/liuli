@@ -1,0 +1,18 @@
+document.addEventListener('DOMContentLoaded', function() {
+    // 平滑滚动
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+
+    // 购买按钮点击事件
+    document.querySelectorAll('.buy-button').forEach(button => {
+        button.addEventListener('click', function() {
+            alert('购买功能开发中，敬请期待！');
+        });
+    });
+});
