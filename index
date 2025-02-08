@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>琉璃仙境 - 传统文化艺术品购物平台</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo-container">
+            <h1>琉璃仙境</h1>
+        </div>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#home">首页</a></li>
+                <li><a href="#products">精品琉璃</a></li>
+                <li><a href="#culture">文化典故</a></li>
+                <li><a href="#artists">匠人世界</a></li>
+                <li><a href="#about">关于我们</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>琉璃仙境</h1>
+                <p>传承千年匠心，演绎东方美学</p>
+                <a href="#products" class="cta-button">探索臻品</a>
+            </div>
+        </section>
+
+        <section id="products" class="featured-products">
+            <h2>精选臻品</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x300" alt="琉璃花瓶">
+                    </div>
+                    <div class="product-info">
+                        <h3>祥云琉璃花瓶</h3>
+                        <p>传统工艺制作，寓意吉祥如意</p>
+                        <span class="price">¥2,999</span>
+                        <button class="buy-button">立即购买</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x300" alt="琉璃摆件">
+                    </div>
+                    <div class="product-info">
+                        <h3>龙凤呈祥摆件</h3>
+                        <p>精湛琉璃工艺，完美诠释东方美学</p>
+                        <span class="price">¥3,999</span>
+                        <button class="buy-button">立即购买</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x300" alt="琉璃茶具">
+                    </div>
+                    <div class="product-info">
+                        <h3>琉璃茶具套装</h3>
+                        <p>匠心独运，品茗必备</p>
+                        <span class="price">¥4,999</span>
+                        <button class="buy-button">立即购买</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>© 2024 琉璃仙境 版权所有</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
